@@ -9,11 +9,11 @@ async function main() {
     initializer: "store",
   });
 
-  // await boxProxy.waitForDeployment();
+  await boxProxy.waitForDeployment();
   // console.log("box: ", boxProxy.waitForDeployment());
   // boxProxy.deployed();
   // await boxProxy.deployTransaction.wait(1);
-  console.log("Box proxy deployed to : ", boxProxy.getAddress());
+  console.log("Box proxy deployed to : ",await boxProxy.getAddress());
 }
 main()
   .then(() => process.exit(0))
