@@ -7,9 +7,9 @@ module.exports = {
   defaultNetwork: "sepolia",
   networks: {
     sepolia: {
-      url: "https://eth-sepolia.g.alchemy.com/v2/RDP1AXMM3c23vtqIZGNPTZLiwzwP9bQF",
+      url: "https://eth-sepolia.g.alchemy.com/v2/<API KEY>",
       accounts: [
-        "0x10135abea58f71e19f057cdc8f5508be2f8979c85da6d480517387ea5642c8e2",
+        "0x<PRIVATE KEY>",
       ],
     },
   },
